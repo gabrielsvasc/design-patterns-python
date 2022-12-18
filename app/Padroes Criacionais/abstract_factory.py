@@ -2,37 +2,48 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 
 
-class VeiculoAbstract(ABC):
-    """Abstract Factory - interface que declara um conjunto de métodos
-    que retornam diferentes produtos abstratos."""
-    @abstractmethod
-    def create_carro(self) -> CarroAbstract: pass
+class IVehicle(ABC):
+    """
+    Interface com metodos que devem ser
+    implementados na classe Vehicle.
+    """
 
     @abstractmethod
-    def create_moto(self) -> MotoAbstract: pass
+    def create_carro(self) -> ICar: pass
+
+    @abstractmethod
+    def create_moto(self) -> IMotorcycle: pass
 
 
-class VeiculoConcrete(VeiculoAbstract):
-    """Concrete Factory - cria os objetos pertencentes
-    a Factory de veiculos.
-    ."""
+class Vehicle(IVehicle):
+    """
+    Implementa os metodos da Interface Vehicle.
+    """
 
-    def create_carro(self) -> CarroAbstract:
-        return CarroConcrete()
+    def create_carro(self) -> ICar:
+        return Car()
 
-    def create_moto(self) -> MotoAbstract:
-        return MotoConcrete()
+    def create_moto(self) -> IMotorcycle:
+        return Motorcycle()
 
 
-class CarroAbstract(ABC):
-    """Interface base para os Carros da Factory."""
+class ICar(ABC):
+    """
+    Interface com metodos que devem ser
+    implementados na classe Car.
+    """
+
     @abstractmethod
     def buscar_cliente(self, endereco_partida: str,
                        endereco_destino: str) -> dict: pass
 
 
-class MotoAbstract(ABC):
-    """Interface base para as Motos da Factory."""
+class IMotorcycle(ABC):
+    """
+    Interface com metodos que devem ser
+    implementados na classe Motorcycle.
+    """
+
     @abstractmethod
     def buscar_encomenda(self, endereco_partida: str,
                          endereco_destino: str) -> dict: pass
@@ -41,8 +52,10 @@ class MotoAbstract(ABC):
     def pegar_assinatura(self, nome: str) -> str: pass
 
 
-class CarroConcrete(CarroAbstract):
-    """Implementação concreta do objeto Carro."""
+class Car(ICar):
+    """
+    Implementa os metodos da Interface Car.
+    """
 
     def buscar_cliente(self, endereco_partida: str, endereco_destino: str) -> dict:
         return {
@@ -51,8 +64,10 @@ class CarroConcrete(CarroAbstract):
         }
 
 
-class MotoConcrete(MotoAbstract):
-    """Implementação concreta do objeto Moto."""
+class Motorcycle(IMotorcycle):
+    """
+    Implementa os metodos da Interface Motorcycle.
+    """
 
     def buscar_encomenda(self, endereco_partida: str, endereco_destino: str) -> dict:
         return {
@@ -65,7 +80,7 @@ class MotoConcrete(MotoAbstract):
 
 
 # Exemplo de cliente fazendo uso da Abstract Factory
-def client_code(factory: VeiculoAbstract) -> None:
+def client_code(factory: IVehicle) -> None:
     carro = factory.create_carro()
     moto = factory.create_moto()
 
@@ -82,4 +97,4 @@ def client_code(factory: VeiculoAbstract) -> None:
 
 
 if __name__ == "__main__":
-    client = client_code(VeiculoConcrete())
+    client = client_code(Vehicle())
