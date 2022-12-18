@@ -1,2 +1,2 @@
-# gof-python
-Padrões de projeto avançados (GOF) em Python.
+# Design Patterns (Python)
+Design Patterns em Python.
