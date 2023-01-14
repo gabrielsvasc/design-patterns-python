@@ -78,8 +78,7 @@ if __name__ == "__main__":
     subject.add_observer(observer_b)
 
     subject.product_available()
-    subject.product_available()
 
-    subject.remove_observer(observer_a)
+    subject.remove_observer(observer_b)
 
     subject.product_available()
