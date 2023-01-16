@@ -49,9 +49,8 @@ class ChangeColorCommand(ICommand):
 
 class Receiver:
     """
-    The Receiver classes contain some important business logic. They know how to
-    perform all kinds of operations, associated with carrying out a request. In
-    fact, any class may serve as a Receiver.
+    O Receiver é responsável por implementar a lógica de negócio,
+    executando as operações pertinentes aos comandos implementados.
     """
 
     def light_on(self, place: str) -> None:
