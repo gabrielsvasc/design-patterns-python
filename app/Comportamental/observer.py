@@ -1,3 +1,14 @@
+"""
+    O Observer é um padrão de projeto comportamental que
+    permite que um objeto notifique outros objetos sobre
+    alterações em seu estado.
+
+    Identificação: O padrão pode ser reconhecido por métodos de
+    assinatura, que armazenam objetos em uma lista e por chamadas
+    para o método de atualização emitido para objetos nessa lista.
+
+"""
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List

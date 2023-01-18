@@ -1,3 +1,12 @@
+"""
+    O Singleton é um padrão de projeto criacional, que garante que
+    apenas um objeto desse tipo exista e forneça um único ponto de
+    acesso a ele para qualquer outro código.
+
+    Identificação: O Singleton pode ser reconhecido por um método
+    de criação estático, que retorna o mesmo objeto em cache.
+"""
+
 from __future__ import annotations
 from threading import Lock, Thread
 
@@ -17,7 +26,7 @@ class SingletonMeta(type):
 
     def __call__(cls, *args, **kwargs):
         """
-        Trava a execução das demasi threads e valida se já existe uma instância
+        Trava a execução das demais threads e valida se já existe uma instância
         da classe, se não armazena os valores da mesma no dict instances.
         """
         with cls._lock:

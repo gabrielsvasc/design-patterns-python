@@ -1,3 +1,12 @@
+"""
+    O Singleton é um padrão de projeto criacional, que garante que
+    apenas um objeto desse tipo exista e forneça um único ponto de
+    acesso a ele para qualquer outro código.
+
+    Identificação: O Singleton pode ser reconhecido por um método
+    de criação estático, que retorna o mesmo objeto em cache.
+"""
+
 from __future__ import annotations
 
 
