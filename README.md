@@ -10,4 +10,5 @@ problema real, solucionar com um dos padrões de projeto e documentar a implemen
 # Docs
 
 Fontes utilizadas neste repositório.
-[Refactoring Guru](https://refactoring.guru/pt-br/design-patterns)
+* [Refactoring Guru](https://refactoring.guru/pt-br/design-patterns)
+* [Luiz Otávio Miranda](https://www.udemy.com/course/python-3-do-zero-ao-avancado/)
