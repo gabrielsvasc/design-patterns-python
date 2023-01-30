@@ -6,6 +6,7 @@ Aplicação dos padrões de projeto desenvolvidos pela GOF (Gangs Of Four) em Py
 
 Este repositório foi desenvolvido utilizando apenas Python.
 
+![Python](https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python&logoColor=306896)
 
 # Descrição
 
