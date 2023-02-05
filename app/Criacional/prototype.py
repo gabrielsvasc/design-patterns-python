@@ -7,7 +7,6 @@
     Identificação: O prototype pode ser facilmente reconhecido pelos
     métodos clone ou copy, etc.
 """
-
 from __future__ import annotations
 from copy import deepcopy
 

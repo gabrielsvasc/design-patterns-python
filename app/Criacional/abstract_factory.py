@@ -8,7 +8,6 @@
     que retornam um objeto fárica. Em seguida, a fábrica é usado para
     criar subcomponentes específicos.
 """
-
 from __future__ import annotations
 from abc import ABC, abstractmethod
 

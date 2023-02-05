@@ -7,7 +7,6 @@
   que alteram seu comportamento, dependendo do estado dos objetos,
   controlados externamente.
 """
-
 from __future__ import annotations
 from abc import ABC, abstractmethod
 

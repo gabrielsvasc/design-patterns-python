@@ -1,3 +1,12 @@
+"""
+    O Chain of Responsibility é um padrão de projeto comportamental que
+    permite passar a solicitação ao longo da cadeia de handlers em
+    potencial até que um deles lide com a solicitação.
+
+    Identificação: O padrão é reconhecível pelos métodos comportamentais
+    de um grupo de objetos que indiretamente chamam os mesmos métodos em
+    outros objetos, enquanto todos os objetos seguem a interface comum.
+"""
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Optional

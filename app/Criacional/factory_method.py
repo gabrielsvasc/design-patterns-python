@@ -7,7 +7,6 @@
     métodos de criação, que criam objetos de classes concretas,
     mas os retornam como objetos de tipo ou interface abstrata.
 """
-
 from __future__ import annotations
 from abc import ABC, abstractmethod
 

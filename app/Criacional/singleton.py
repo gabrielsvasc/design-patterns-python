@@ -6,7 +6,6 @@
     Identificação: O Singleton pode ser reconhecido por um método
     de criação estático, que retorna o mesmo objeto em cache.
 """
-
 from __future__ import annotations
 
 

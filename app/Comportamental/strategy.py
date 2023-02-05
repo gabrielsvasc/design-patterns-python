@@ -6,9 +6,7 @@
     Identificação: O padrão Strategy pode ser reconhecido por um método que
     permite que o objeto aninhado faça o trabalho real, bem como pelo setter
     que permite substituir esse objeto por outro diferente.
-
 """
-
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List
