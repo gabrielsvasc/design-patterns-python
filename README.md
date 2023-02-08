@@ -2,7 +2,7 @@
 
 Aplicação dos padrões de projeto desenvolvidos pela GOF (Gangs Of Four) em Python.
 
-### Feito com
+### Stack
 
 Este repositório foi desenvolvido utilizando apenas Python.
 
