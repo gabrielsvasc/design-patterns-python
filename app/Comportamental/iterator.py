@@ -7,6 +7,8 @@
     navegação (next, previous e etc). O código cliente que usa iteradores
     pode não ter acesso direto à coleção que está sendo percorrida.
 """
+
+
 from __future__ import annotations
 from collections.abc import Iterable, Iterator
 from typing import Any, List

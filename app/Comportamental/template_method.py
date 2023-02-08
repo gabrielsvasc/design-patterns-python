@@ -8,6 +8,8 @@
     métodos comportamentais que já possuem um comportamento
     “padrão” definido pela classe base.
 """
+
+
 from abc import ABC, abstractmethod
 
 

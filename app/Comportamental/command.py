@@ -10,6 +10,8 @@
     encapsulado pela implementação do comando durante a sua criação. As classes
     do Command geralmente são limitadas a ações específicas.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 

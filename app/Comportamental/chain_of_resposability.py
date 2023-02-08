@@ -7,6 +7,8 @@
     de um grupo de objetos que indiretamente chamam os mesmos métodos em
     outros objetos, enquanto todos os objetos seguem a interface comum.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any, Optional

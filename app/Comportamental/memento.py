@@ -5,6 +5,8 @@
   Aplicação: O padrão Memento é utilizado para produzir retratos do estado
   de um objeto para ser capaz de restaurar um estado anterior do objeto.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from datetime import datetime

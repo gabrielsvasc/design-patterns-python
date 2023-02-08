@@ -7,6 +7,8 @@
   deseja executar operações sobre diversos elementos que dependem apenas
   das suas classes concretas, não possuindo uma interface comum.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List

@@ -7,6 +7,8 @@
     assinatura, que armazenam objetos em uma lista e por chamadas
     para o método de atualização emitido para objetos nessa lista.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List

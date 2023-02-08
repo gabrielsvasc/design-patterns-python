@@ -8,6 +8,8 @@
     de uma aplicação. O sinônimo do Mediator é a parte do Controlador do
     padrão MVC.
 """
+
+
 from __future__ import annotations
 from abc import ABC
 

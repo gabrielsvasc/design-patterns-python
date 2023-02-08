@@ -7,6 +7,8 @@
     um único método de criação e vários métodos para configurar o objeto
     resultante. Os métodos do Builder geralmente suportam encadeamento.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
