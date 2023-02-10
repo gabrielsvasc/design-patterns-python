@@ -15,7 +15,7 @@ problema real, solucionar com um dos padrões de projeto e documentar a implemen
 
 # Contatos
 
-Gabriel Vasconcelos - [Linkedin](https://www.linkedin.com/in/gabrielsvasc99/)
+<a href="https://www.linkedin.com/in/gabrielsvasc99/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 # Docs
 
