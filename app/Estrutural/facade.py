@@ -78,8 +78,6 @@ class Subsystem2:
     def operation1(self) -> str:
         return "Subsystem2: Volume nivelado!"
 
-    # ...
-
     def operation_z(self) -> str:
         return "Subsystem2: Ruído removido!"
 
