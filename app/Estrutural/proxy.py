@@ -4,6 +4,10 @@
   Um proxy recebe solicitações do cliente, realiza alguma tarefa (controle
   de acesso, armazenamento em cache, registro de solicitações, inicialização
   preguiçosa e etc.) e passa a solicitação para um objeto de serviço.
+
+  Identificação: Proxies delegam todo o trabalho real para algum outro objeto.
+  Cada método de proxy deve, no final, se referir a um objeto de serviço, a
+  menos que o proxy seja uma subclasse de um serviço.
 """
 
 from abc import ABC, abstractmethod
