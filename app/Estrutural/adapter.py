@@ -1,13 +1,13 @@
 """
-    O Adapter atua como um wrapper entre dois objetos. Ele captura chamadas
-    para um objeto e as deixa reconhecíveis tanto em formato como interface
-    para este segundo objeto.
+O Adapter atua como um wrapper entre dois objetos. Ele captura chamadas
+para um objeto e as deixa reconhecíveis tanto em formato como interface
+para este segundo objeto.
 
-    Identificação: O adapter é reconhecível por um construtor que utiliza
-    uma instância de tipo abstrato/interface diferente. Quando o adaptador
-    recebe uma chamada para qualquer um de seus métodos, ele converte
-    parâmetros para o formato apropriado e direciona a chamada para um ou
-    vários métodos do objeto envolvido.
+Identificação: O adapter é reconhecível por um construtor que utiliza
+uma instância de tipo abstrato/interface diferente. Quando o adaptador
+recebe uma chamada para qualquer um de seus métodos, ele converte
+parâmetros para o formato apropriado e direciona a chamada para um ou
+vários métodos do objeto envolvido.
 """
 
 

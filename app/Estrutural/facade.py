@@ -1,12 +1,12 @@
 """
-  O Facade é um padrão de projeto estrutural que fornece uma interface
-  simplificada (mas limitada) para um sistema complexo de classes,
-  biblioteca, ou framework.
+O Facade é um padrão de projeto estrutural que fornece uma interface
+simplificada (mas limitada) para um sistema complexo de classes,
+biblioteca, ou framework.
 
-  Identificação: O Facade pode ser reconhecido em uma classe que possui uma
-  interface simples, mas delega a maior parte do trabalho para outras
-  classes. Geralmente, as fachadas gerenciam o ciclo de vida completo dos
-  objetos que usam.
+Identificação: O Facade pode ser reconhecido em uma classe que possui uma
+interface simples, mas delega a maior parte do trabalho para outras
+classes. Geralmente, as fachadas gerenciam o ciclo de vida completo dos
+objetos que usam.
 """
 
 
