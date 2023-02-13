@@ -1,11 +1,11 @@
 """
-    O Factory Method define um método, que deve ser usado para criar
-    objetos em vez da chamada direta ao construtor. As subclasses podem
-    substituir esse método para alterar a classe de objetos que serão criados.
+O Factory Method define um método, que deve ser usado para criar
+objetos em vez da chamada direta ao construtor. As subclasses podem
+substituir esse método para alterar a classe de objetos que serão criados.
 
-    Identificação: Os métodos fábrica podem ser reconhecidos por
-    métodos de criação, que criam objetos de classes concretas,
-    mas os retornam como objetos de tipo ou interface abstrata.
+Identificação: Os métodos fábrica podem ser reconhecidos por
+métodos de criação, que criam objetos de classes concretas,
+mas os retornam como objetos de tipo ou interface abstrata.
 """
 
 

@@ -1,11 +1,11 @@
 """
-    Diferente de outros padrões de criação, o Builder não exige que os
-    produtos tenham uma interface comum. Isso torna possível produzir
-    produtos diferentes usando o mesmo processo de construção.
+Diferente de outros padrões de criação, o Builder não exige que os
+produtos tenham uma interface comum. Isso torna possível produzir
+produtos diferentes usando o mesmo processo de construção.
 
-    Identificação: O padrão Builder pode ser reconhecido na classe que possui
-    um único método de criação e vários métodos para configurar o objeto
-    resultante. Os métodos do Builder geralmente suportam encadeamento.
+Identificação: O padrão Builder pode ser reconhecido na classe que possui
+um único método de criação e vários métodos para configurar o objeto
+resultante. Os métodos do Builder geralmente suportam encadeamento.
 """
 
 

@@ -1,11 +1,11 @@
 """
-    Todas as classes de prototypes(protótipos) devem ter uma interface
-    comum que permita copiar objetos, mesmo que suas classes concretas
-    sejam desconhecidas. Objetos protótipos podem produzir cópias completas,
-    pois objetos da mesma classe podem acessar os campos privados um do outro.
+Todas as classes de prototypes(protótipos) devem ter uma interface
+comum que permita copiar objetos, mesmo que suas classes concretas
+sejam desconhecidas. Objetos protótipos podem produzir cópias completas,
+pois objetos da mesma classe podem acessar os campos privados um do outro.
 
-    Identificação: O prototype pode ser facilmente reconhecido pelos
-    métodos clone ou copy, etc.
+Identificação: O prototype pode ser facilmente reconhecido pelos
+métodos clone ou copy, etc.
 """
 
 

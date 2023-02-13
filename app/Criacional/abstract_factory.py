@@ -1,12 +1,12 @@
 """
-    O Abstract Factory define uma interface para criar todos os
-    produtos distintos, mas deixa a criação real do produto para
-    classes concretas. Cada tipo de fábrica corresponde a
-    uma determinada variedade de produtos.
+O Abstract Factory define uma interface para criar todos os
+produtos distintos, mas deixa a criação real do produto para
+classes concretas. Cada tipo de fábrica corresponde a
+uma determinada variedade de produtos.
 
-    Identificação: O padrão é fácil de reconhecer pelos seus métodos,
-    que retornam um objeto fárica. Em seguida, a fábrica é usado para
-    criar subcomponentes específicos.
+Identificação: O padrão é fácil de reconhecer pelos seus métodos,
+que retornam um objeto fárica. Em seguida, a fábrica é usado para
+criar subcomponentes específicos.
 """
 
 
