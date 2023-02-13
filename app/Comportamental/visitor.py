@@ -1,11 +1,11 @@
 """"
-  O Visitor é um padrão de projeto comportamental que permite adicionar
-  novos comportamentos à hierarquia de classes existente sem alterar
-  nenhum código existente.
+O Visitor é um padrão de projeto comportamental que permite adicionar
+novos comportamentos à hierarquia de classes existente sem alterar
+nenhum código existente.
 
-  Identificação: O padrão Visitor é utilizado nas situações em que se
-  deseja executar operações sobre diversos elementos que dependem apenas
-  das suas classes concretas, não possuindo uma interface comum.
+Identificação: O padrão Visitor é utilizado nas situações em que se
+deseja executar operações sobre diversos elementos que dependem apenas
+das suas classes concretas, não possuindo uma interface comum.
 """
 
 

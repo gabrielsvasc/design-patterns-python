@@ -1,14 +1,14 @@
 """
-    O Command é um padrão de projeto comportamental que
-    converte solicitações ou operações simples em objetos.
-    A conversão permite a execução adiada ou remota de comandos,
-    armazenamento do histórico de comandos, etc.
+O Command é um padrão de projeto comportamental que
+converte solicitações ou operações simples em objetos.
+A conversão permite a execução adiada ou remota de comandos,
+armazenamento do histórico de comandos, etc.
 
-    Identificação: O padrão Command é reconhecível por métodos comportamentais
-    em um tipo abstrato/interface (remetente) que chama um método em uma
-    implementação de um tipo abstrato/interface diferente (destinatário) que foi
-    encapsulado pela implementação do comando durante a sua criação. As classes
-    do Command geralmente são limitadas a ações específicas.
+Identificação: O padrão Command é reconhecível por métodos comportamentais
+em um tipo abstrato/interface (remetente) que chama um método em uma
+implementação de um tipo abstrato/interface diferente (destinatário) que foi
+encapsulado pela implementação do comando durante a sua criação. As classes
+do Command geralmente são limitadas a ações específicas.
 """
 
 

@@ -1,11 +1,11 @@
 """
-    O Strategy é um padrão de projeto comportamental que transforma
-    um conjunto de comportamentos em objetos e os torna intercambiáveis
-    dentro do objeto de contexto original.
+O Strategy é um padrão de projeto comportamental que transforma
+um conjunto de comportamentos em objetos e os torna intercambiáveis
+dentro do objeto de contexto original.
 
-    Identificação: O padrão Strategy pode ser reconhecido por um método que
-    permite que o objeto aninhado faça o trabalho real, bem como pelo setter
-    que permite substituir esse objeto por outro diferente.
+Identificação: O padrão Strategy pode ser reconhecido por um método que
+permite que o objeto aninhado faça o trabalho real, bem como pelo setter
+que permite substituir esse objeto por outro diferente.
 """
 
 

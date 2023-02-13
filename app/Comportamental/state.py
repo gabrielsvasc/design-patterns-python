@@ -1,11 +1,11 @@
 """
-  O State é um padrão de projeto comportamental que permite
-  que um objeto altere o comportamento quando seu estado
-  interno for alterado.
+O State é um padrão de projeto comportamental que permite
+que um objeto altere o comportamento quando seu estado
+interno for alterado.
 
-  Identificação: O padrão State pode ser reconhecido por métodos
-  que alteram seu comportamento, dependendo do estado dos objetos,
-  controlados externamente.
+Identificação: O padrão State pode ser reconhecido por métodos
+que alteram seu comportamento, dependendo do estado dos objetos,
+controlados externamente.
 """
 
 

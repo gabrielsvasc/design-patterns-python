@@ -1,11 +1,11 @@
 """
-    O Iterador é um padrão de projeto comportamental que permite a passagem
-    sequencial através de uma estrutura de dados complexa sem expor seus
-    detalhes internos.
+O Iterador é um padrão de projeto comportamental que permite a passagem
+sequencial através de uma estrutura de dados complexa sem expor seus
+detalhes internos.
 
-    Identificação: O iterador é fácil de reconhecer pelos métodos de
-    navegação (next, previous e etc). O código cliente que usa iteradores
-    pode não ter acesso direto à coleção que está sendo percorrida.
+Identificação: O iterador é fácil de reconhecer pelos métodos de
+navegação (next, previous e etc). O código cliente que usa iteradores
+pode não ter acesso direto à coleção que está sendo percorrida.
 """
 
 

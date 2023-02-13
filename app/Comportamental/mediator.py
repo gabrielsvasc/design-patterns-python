@@ -1,12 +1,12 @@
 """
-    O Mediator é um padrão de projeto comportamental que reduz o
-    acoplamento entre os componentes de um programa, fazendo-os se
-    comunicar indiretamente, por meio de um objeto mediador especial.
+O Mediator é um padrão de projeto comportamental que reduz o
+acoplamento entre os componentes de um programa, fazendo-os se
+comunicar indiretamente, por meio de um objeto mediador especial.
 
-    Identificação: O uso mais popular do padrão Mediator no código Python
-    é facilitar a comunicação entre os componentes de interface do usuário
-    de uma aplicação. O sinônimo do Mediator é a parte do Controlador do
-    padrão MVC.
+Identificação: O uso mais popular do padrão Mediator no código Python
+é facilitar a comunicação entre os componentes de interface do usuário
+de uma aplicação. O sinônimo do Mediator é a parte do Controlador do
+padrão MVC.
 """
 
 

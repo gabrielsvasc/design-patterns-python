@@ -1,12 +1,12 @@
 """
-    O Template Method é um padrão de projeto comportamental
-    que permite definir o esqueleto de um algoritmo em uma
-    classe base e permitir que as subclasses substituam as
-    etapas sem alterar a estrutura geral do algoritmo.
+O Template Method é um padrão de projeto comportamental
+que permite definir o esqueleto de um algoritmo em uma
+classe base e permitir que as subclasses substituam as
+etapas sem alterar a estrutura geral do algoritmo.
 
-    Identificação: O Template Method pode ser reconhecido por
-    métodos comportamentais que já possuem um comportamento
-    “padrão” definido pela classe base.
+Identificação: O Template Method pode ser reconhecido por
+métodos comportamentais que já possuem um comportamento
+“padrão” definido pela classe base.
 """
 
 
