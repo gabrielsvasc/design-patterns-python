@@ -1,10 +1,10 @@
 """
-    O Flyweight é um padrão de projeto estrutural que permite que os
-    programas suportem grandes quantidades de objetos, mantendo baixo o
-    consumo de memória.
+O Flyweight é um padrão de projeto estrutural que permite que os
+programas suportem grandes quantidades de objetos, mantendo baixo o
+consumo de memória.
 
-    Identificação: O Flyweight pode ser reconhecido por um método de criação
-    que retorna objetos em cache em vez de criar novos.
+Identificação: O Flyweight pode ser reconhecido por um método de criação
+que retorna objetos em cache em vez de criar novos.
 """
 import json
 from typing import Dict, List

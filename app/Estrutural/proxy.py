@@ -10,6 +10,7 @@ Cada método de proxy deve, no final, se referir a um objeto de serviço, a
 menos que o proxy seja uma subclasse de um serviço.
 """
 
+
 from abc import ABC, abstractmethod
 from typing import List, Dict
 from time import sleep

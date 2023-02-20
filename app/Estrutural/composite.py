@@ -8,6 +8,7 @@ levando uma instância do mesmo tipo abstrato/interface para uma estrutura
 em árvore.
 """
 
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import List

@@ -5,6 +5,8 @@ classe em hierarquias de classe separadas que podem ser desenvolvidas independen
 Identificação: O Bridge pode ser reconhecida por uma distinção clara entre alguma entidade
 controladora e várias plataformas diferentes nas quais ela se baseia.
 """
+
+
 from __future__ import annotations
 from abc import ABC, abstractmethod
 
