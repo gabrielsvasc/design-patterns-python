@@ -6,6 +6,8 @@ consumo de memória.
 Identificação: O Flyweight pode ser reconhecido por um método de criação
 que retorna objetos em cache em vez de criar novos.
 """
+
+
 import json
 from typing import Dict, List
 
